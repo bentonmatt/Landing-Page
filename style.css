@@ -1,7 +1,44 @@
 * {
-    font: roboto;
+    font-family: roboto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;   
+}
+
+a {
+    color: lightgrey;
+    text-decoration: none;
 }
 
 .header, .herosection, .footer {
     background-color: #1F2937
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 72px;
+}
+
+.logo {
+    color: white;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+.content {
+    flex-grow: 1;
 }
