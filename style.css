@@ -1,0 +1,7 @@
+* {
+    font: roboto;
+}
+
+.header, .herosection, .footer {
+    background-color: #1F2937
+}
